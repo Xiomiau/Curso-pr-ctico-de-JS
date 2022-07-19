@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcyan;
+    font-size: 1.5rem;
+    color: darkmagenta;
+}
+
+h1 {
+    color: lightcoral;
+}
+
+input {
+    width:auto;
+    border: none;
+    border-radius: 15px;
+    background-color: lightblue;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: darkmagenta;
+}
+
+button {
+    border: none;
+    background-color: hwb(240 0% 45% / 0.692);
+    padding: .5rem;
+    color: aliceblue;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: hsla(32, 100%, 50%, 0.788);
+}
+
+.resultado {
+    color: hwb(240 0% 45% / 0.692);
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 2rem;
+}
+
+.calc {
+    color: lightcoral;
+    font-family: 'Oswald', sans-serif;
+
+}
